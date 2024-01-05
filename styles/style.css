@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;;
+}
+.hero{
+     background-image: url(../images/cow.jpg);
+     height: 100vh;
+     background-size: cover;
+     background-position: bottom center;
+}
+.hero h1{
+    text-align: center;
+    color: azure;
+    font-size: 100px;
+    font-weight: 800px;
+    font-family:cursive;
+    word-spacing: 4px;
+    letter-spacing: 20px;
+    padding-top: 60px;
+}
+.apple{
+    width:80%;
+    margin: 60px auto;
+    background-color: aqua;
+    padding: 60px;
+    border-width: 10px;
+    border-color: yellow;
+    border-style:solid;
+}
+.apple h2{
+    text-align: center;
+    font-size: 48px;
+    border-bottom: 2px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-color: yellow;
+    border-style:solid;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.apple p{
+    font-size: 28px;
+    line-height: 1em;
+}
+.apple p .imp{
+    background-color: red;
+}
+.article{
+    height: 400px;
+    width: 400px;
+}
